@@ -26,12 +26,12 @@ public class LeftPanel extends JPanel{
         addInferiorSubPanel();
     }
 
-    
+
     private void addTopSubPanel(){
         TopSubPanel topSubPanel = new TopSubPanel();
         add(topSubPanel,BorderLayout.NORTH);
     }
-    
+
     private void addMediumSubPanel(){
         MediumSubPanel mediumSubPanel = new MediumSubPanel();
         add(mediumSubPanel,BorderLayout.CENTER);

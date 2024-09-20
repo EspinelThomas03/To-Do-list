@@ -33,7 +33,6 @@ public class DashBoard extends JFrame{
     private void initComponents(){
         addCenterPanel();
         addLeftPanel();
-        addSubPanelInferior();
     }
 
     private void addCenterPanel(){
@@ -46,7 +45,4 @@ public class DashBoard extends JFrame{
         add(leftPanel, BorderLayout.WEST);
     }
 
-    private void addSubPanelInferior(){
-        
-    }
 }
