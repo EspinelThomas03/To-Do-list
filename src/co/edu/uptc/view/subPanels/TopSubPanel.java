@@ -25,6 +25,7 @@ public class TopSubPanel extends JPanel{
         setBorder(jBorder);
         setLayout(new BorderLayout());
         intitComponents();
+
     }
 
 
