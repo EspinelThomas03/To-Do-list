@@ -29,7 +29,6 @@ public class TopSubPanel extends JPanel{
 
 
     private void intitComponents(){
-        // addLineSeparator();
         addName();
     }
     private ImageIcon getprofilePhoto(){
