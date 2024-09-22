@@ -48,11 +48,4 @@ public class TopSubPanel extends JPanel{
         name.setText("Thomas Espinel");
         add(name,BorderLayout.EAST);
     }
-
-    private void addLineSeparator(){
-        JPanel blackLine = new JPanel();
-        blackLine.setBackground(Color.BLACK);
-        blackLine.setPreferredSize(new Dimension(WIDTH, 2));
-        add(blackLine, BorderLayout.SOUTH);
-    }
 }
